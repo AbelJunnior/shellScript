@@ -35,3 +35,18 @@ if [ ! -d ~/Bruno ]; then
                 ls
                 cd ..
                 echo ""
+                
+                echo "f) Removendo o arquivo baixado..."
+                rm -rf zip.zip
+                echo "--Arquivo zip removido com sucesso."
+                ls
+                echo ""
+
+	else
+                echo "Erro ao criar diretório."
+        fi
+
+        else
+        echo "Diretório já existe!"
+
+fi
